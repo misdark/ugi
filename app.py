@@ -12,7 +12,7 @@ def index():
         except:
             if AttributeError:
                 calcpad = ["nanno"]
-        padding = 16/len(calcpad)
+        padding = 17-len(calcpad)
         return render_template('index.html', result=result, padding=padding, indo=indo)
     return render_template('index.html')
     
