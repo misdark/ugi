@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3F51B5;
+}
+
+#eyes {
+    position: relative;
+    margin-top: 30%;
+    justify-content: center;
+    left: 50%;display: flex;
+    transform: translateX(-50%);
+    width: 80%;height: 30vw;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9999px;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+}
+
+#eyes #input {
+    width: 50%;height: 100%;
+    text-overflow: ellipsis;
+    outline: none;border: 1px solid black;
+    background-color: transparent;
+    padding: 0 10%;
+    text-align: center;
+}
+
+#face {
+    position: relative;
+    left: 50%;transform: translateX(-50%);
+    display: flex;width: 80%;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.blush {
+    width: 30%;height: 10vw;
+    border-radius: 50%;
+    background-color: lightpink;
+    box-shadow: 0 0 3px pink;
+}
+
+#lips {
+    position: relative;
+    margin-top: 10%;
+    width: 40%;height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0 0 2rem 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 3px black;
+}
+
+#tongue {
+    width: 100%;height: 50%;
+    position: absolute;bottom: 0;
+    border-radius: 1rem 1rem 0 0;
+    background-color: salmon;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding-top: 2%;
+}
+
+#button {
+    position: absolute;
+    left: 50%;transform: translateX(-50%);
+    font-size: .6rem;
+    margin-top: 2%;color: white;
+    font-weight: 400;
+    font-family: Sans-Serif;
+    border: none;outline: none;
+    background-color: transparent;
+}
+
+#tongue:active {
+    box-shadow: none;
+    height: 25px;
+}
+
+#about {
+    position: relative;
+    width: 90%;left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-top: 2%;
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-size: 10px;
+    margin-top: 2%;
+    font-family: Sans-Serif;
+}
